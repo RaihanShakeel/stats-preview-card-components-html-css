@@ -96,6 +96,13 @@ footer div a{
     color: skyblue;
 }
 
+@media (max-width: 1440px) {
+  .img-container img{
+    content: url('/images/image-header-desktop.jpg');
+  }
+  
+}
+
 @media (max-width: 375px){
   .img-container img{
     content: url('/images/image-header-mobile.jpg');
